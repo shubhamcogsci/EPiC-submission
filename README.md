@@ -11,7 +11,3 @@ There are separate code files associated with each step. The file clean_physio_d
 heart rate from ECG data, BVP clean data, skin conductance response from GSR data, respiration rate from RSP data, cleaned skin temperature data, and the amplitudes from three muscles data. The file merge_data.ipynb samples data at 200 Hz and then merges it. The file train_model.ipynb fits the data to regression mode. The file predict_newdata.ipynb used the model to predict new data. 
 
 
-Two files where we could not predict valence and arousal owing to an error generated due to neurokit:
-
-1)  \scenario_3\fold_3\test\physiology\sub_43_vid_21
-2)  \scenario_2\fold_1\test\physiology\sub_1_vid_10
